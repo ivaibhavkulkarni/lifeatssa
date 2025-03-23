@@ -97,7 +97,7 @@ export default function SixButtons() {
       {/* Main Content */}
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="w-full max-w-2xl">
-          <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">6 Button Layout</h2>
+          <h2 className="text-2xl font-bold text-center text-gray-800 mb-8">Life@SSA Teachers</h2>
 
           {/* Desktop View - Semi-circle Layout */}
           <div className="hidden md:block relative h-[60vh] max-h-[600px] mb-8">

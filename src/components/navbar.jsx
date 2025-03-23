@@ -11,15 +11,9 @@ export default function Navbar() {
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
 
-  const lifeOptions = [
-    { name: "Events", path: "/life/events" },
-    { name: "Benefits", path: "/life/benefits" },
-    { name: "Resources", path: "/life/resources" },
-  ]
-
   const layoutOptions = [
-    { name: "8 Buttons", path: "/eight-buttons" },
-    { name: "6 Buttons", path: "/six-buttons" },
+    { name: "Life@SSA Students", path: "/life@ssa-students" },
+    { name: "Life@SSA Teachers", path: "/life@ssa-teachers" },
   ]
 
   return (
@@ -28,37 +22,9 @@ export default function Navbar() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center justify-between">
           <Link href="/" className="text-2xl font-bold text-gray-800">
-            Interactive Layout
+            Navbar
           </Link>
           <div className="flex items-center space-x-6">
-            {/* Life@SSA Dropdown */}
-            <div className="relative">
-              <button
-                onClick={() => {
-                  setIsLifeDropdownOpen(!isLifeDropdownOpen)
-                  setIsLayoutDropdownOpen(false)
-                }}
-                className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200"
-              >
-                Life@SSA
-                <ChevronDown className={`w-4 h-4 transition-transform ${isLifeDropdownOpen ? "rotate-180" : ""}`} />
-              </button>
-              {isLifeDropdownOpen && (
-                <div className="absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-20">
-                  {lifeOptions.map((option) => (
-                    <Link
-                      key={option.name}
-                      href={option.path}
-                      className="block px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-200"
-                      onClick={() => setIsLifeDropdownOpen(false)}
-                    >
-                      {option.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
             {/* Button Layouts Dropdown */}
             <div className="relative">
               <button
@@ -68,7 +34,7 @@ export default function Navbar() {
                 }}
                 className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200"
               >
-                Button Layouts
+                Life@SSA
                 <ChevronDown className={`w-4 h-4 transition-transform ${isLayoutDropdownOpen ? "rotate-180" : ""}`} />
               </button>
               {isLayoutDropdownOpen && (
@@ -92,7 +58,7 @@ export default function Navbar() {
         {/* Mobile Navigation */}
         <div className="md:hidden flex items-center justify-between">
           <Link href="/" className="text-xl font-bold text-gray-800">
-            Interactive Layout
+            navbar
           </Link>
           <button
             onClick={toggleMenu}
@@ -139,7 +105,7 @@ export default function Navbar() {
                 onClick={() => setIsLayoutDropdownOpen(!isLayoutDropdownOpen)}
                 className="w-full flex items-center justify-between px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-200"
               >
-                <span>Button Layouts</span>
+                <span>Life@SSA</span>
                 <ChevronDown className={`w-4 h-4 transition-transform ${isLayoutDropdownOpen ? "rotate-180" : ""}`} />
               </button>
               {isLayoutDropdownOpen && (

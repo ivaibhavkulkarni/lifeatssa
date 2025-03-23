@@ -9,7 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     // Redirect to 8-button layout by default
-    router.push("/eight-buttons")
+    router.push("life@ssa-students")
   }, [router])
 
   return (
