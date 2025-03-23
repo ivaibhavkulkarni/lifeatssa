@@ -6,7 +6,6 @@ import { Menu, X, ChevronDown } from "lucide-react"
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [isLifeDropdownOpen, setIsLifeDropdownOpen] = useState(false)
   const [isLayoutDropdownOpen, setIsLayoutDropdownOpen] = useState(false)
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen)
@@ -30,7 +29,6 @@ export default function Navbar() {
               <button
                 onClick={() => {
                   setIsLayoutDropdownOpen(!isLayoutDropdownOpen)
-                  setIsLifeDropdownOpen(false)
                 }}
                 className="flex items-center gap-2 px-4 py-2 text-gray-700 hover:bg-gray-100 rounded-md transition-colors duration-200"
               >
@@ -71,34 +69,6 @@ export default function Navbar() {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden mt-4 bg-white rounded-md shadow-lg py-2 z-20">
-            {/* Life@SSA Section */}
-            <div>
-              <button
-                onClick={() => setIsLifeDropdownOpen(!isLifeDropdownOpen)}
-                className="w-full flex items-center justify-between px-4 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-200"
-              >
-                <span>Life@SSA</span>
-                <ChevronDown className={`w-4 h-4 transition-transform ${isLifeDropdownOpen ? "rotate-180" : ""}`} />
-              </button>
-              {isLifeDropdownOpen && (
-                <div className="bg-gray-50 py-1">
-                  {lifeOptions.map((option) => (
-                    <Link
-                      key={option.name}
-                      href={option.path}
-                      className="block px-8 py-2 text-gray-700 hover:bg-gray-100 transition-colors duration-200"
-                      onClick={() => {
-                        setIsLifeDropdownOpen(false)
-                        setIsMenuOpen(false)
-                      }}
-                    >
-                      {option.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-
             {/* Button Layouts Section */}
             <div>
               <button
