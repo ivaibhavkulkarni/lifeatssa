@@ -17,7 +17,7 @@ export default function Home() {
       <Navbar />
       <div className="flex-1 flex items-center justify-center p-4">
         <div className="text-center">
-          <h1 className="text-3xl font-bold text-gray-800 mb-4">Interactive Button Layout</h1>
+          <h1 className="text-3xl font-bold text-gray-800 mb-4">Life@SSA Loading</h1>
           <p className="text-gray-600 mb-8">Loading default layout...</p>
         </div>
       </div>

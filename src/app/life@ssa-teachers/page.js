@@ -10,8 +10,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-red-500 to-red-600",
     gradient: "from-red-500 to-red-600",
-    title: "Nature Gallery",
-    description: "A collection of beautiful nature landscapes from around the world.",
+    title: "Exclusive Celebrations",
+    description: "Teachers’ Day, Children’s Day, and birthdays are celebrated with joy, making every teacher feel valued and appreciated.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -22,8 +22,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-blue-500 to-blue-600",
     gradient: "from-blue-500 to-blue-600",
-    title: "Ocean Life",
-    description: "Explore the wonders of marine life and underwater ecosystems.",
+    title: "Supportive Community",
+    description: "A warm, friendly environment nurtures personal connections, where teachers uplift and support each other.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -34,8 +34,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-green-500 to-green-600",
     gradient: "from-green-500 to-green-600",
-    title: "Forest Adventures",
-    description: "Journey through dense forests and discover hidden wildlife.",
+    title: "Continuous Learning",
+    description: "Regular workshops help teachers stay updated with the latest teaching methodologies and subject knowledge.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -46,8 +46,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-purple-500 to-purple-600",
     gradient: "from-purple-500 to-purple-600",
-    title: "Night Sky",
-    description: "Stunning views of stars, galaxies, and cosmic phenomena.",
+    title: "Morning Well-being Practices",
+    description: "Each day starts with breathing techniques and meditation, fostering calmness, energy, and a joyful spirit.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -58,8 +58,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-pink-500 to-pink-600",
     gradient: "from-pink-500 to-pink-600",
-    title: "Floral Collection",
-    description: "Beautiful flowers and plants from gardens around the world.",
+    title: "Art of Living Training",
+    description: "Teachers undergo extensive training under the Art of Living Foundation, gaining a 360-degree perspective on holistic education.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -70,8 +70,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-indigo-500 to-indigo-600",
     gradient: "from-indigo-500 to-indigo-600",
-    title: "Mountain Peaks",
-    description: "Majestic mountain ranges and breathtaking summit views.",
+    title: "Holistic Teaching Approach",
+    description: "Educators follow CBSE standards while integrating value-based education for overall student growth.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",

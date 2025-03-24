@@ -9,8 +9,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-red-500 to-red-600",
     gradient: "from-red-500 to-red-600",
-    title: "Urban Architecture",
-    description: "Modern and historical buildings from cities around the world.",
+    title: "Student Council",
+    description: "Empowering students to lead, the council fosters responsibility, teamwork, and initiative, organizing events, voicing student concerns, and shaping a vibrant school community.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -21,8 +21,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-blue-500 to-blue-600",
     gradient: "from-blue-500 to-blue-600",
-    title: "Technology Innovations",
-    description: "Cutting-edge technology and futuristic concepts.",
+    title: "Field Trips & Excursions",
+    description: "Learning extends beyond classrooms with enriching field trips that offer hands-on experiences and real-world exposure.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -33,8 +33,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-green-500 to-green-600",
     gradient: "from-green-500 to-green-600",
-    title: "Sustainable Living",
-    description: "Eco-friendly practices and green technology solutions.",
+    title: "Festival Celebrations",
+    description: "Every festival is joyfully celebrated, fostering cultural awareness, unity, and a spirit of togetherness.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -45,8 +45,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-yellow-400 to-yellow-500",
     gradient: "from-yellow-400 to-yellow-500",
-    title: "Desert Landscapes",
-    description: "Stunning desert scenery and unique geological formations.",
+    title: "Annual Events",
+    description: "Grand celebrations like Gyan Mahotsav, Annual Day, and Sports Day showcase talent, teamwork, and excellence.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -57,8 +57,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-purple-500 to-purple-600",
     gradient: "from-purple-500 to-purple-600",
-    title: "Space Exploration",
-    description: "Images from space missions and astronomical discoveries.",
+    title: "Dance, Music & Art",
+    description: "Express creativity through vibrant dance performances, soul-stirring music, and inspiring artistic creations.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -69,8 +69,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-pink-500 to-pink-600",
     gradient: "from-pink-500 to-pink-600",
-    title: "Art & Culture",
-    description: "Artistic expressions and cultural celebrations from around the world.",
+    title: "Clubs & Activities",
+    description: "A diverse range of clubs—science, literature, debate, and beyond—encourages exploration, teamwork, and innovation.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -81,8 +81,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-indigo-500 to-indigo-600",
     gradient: "from-indigo-500 to-indigo-600",
-    title: "Historical Moments",
-    description: "Significant events and landmarks throughout human history.",
+    title: "Academic Learning",
+    description: "Engaging and interactive regular classes cultivate curiosity, critical thinking, and a deep love for learning.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
@@ -93,8 +93,8 @@ const buttonColors = [
   {
     color: "bg-gradient-to-r from-orange-500 to-orange-600",
     gradient: "from-orange-500 to-orange-600",
-    title: "Culinary Delights",
-    description: "Delicious food and culinary traditions from different cultures.",
+    title: "Morning Well-being Practices",
+    description: "Each day begins with Art of Living breathing techniques, meditation, and yoga, nurturing a calm and focused mind.",
     images: [
       "/placeholder.svg?height=400&width=600",
       "/placeholder.svg?height=400&width=600",
